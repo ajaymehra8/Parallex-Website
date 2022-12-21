@@ -1,0 +1,64 @@
+html,body{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family: 'Lato', sans-serif;
+  line-height:1.8em;
+  color:#666;
+}
+.pimg1{
+  background-image:url(https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+    min-height:100%;
+}
+.pimg2{
+  background-image:url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+  min-height:400px;}
+.pimg3{
+  background-image:url(https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  min-height:400px;
+}
+.pimg1,.pimg2,.pimg3{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.ptext{
+position:absolute;
+top:50%;
+width:100%;
+text-align:center;
+  font-size:27px;
+ color:black;
+  letter-spacing:6px;
+  text-transform:uppercase;
+  line-height:2.5rem;
+}
+.textbg{
+  background-color:#313534;
+  color:white;
+  padding:10px;
+}
+.section{
+  text-align:center;
+  padding:30px;
+}
+.ptext2,.ptext3{
+  position:absolute;
+top:50%;
+width:100%;
+text-align:center;
+  font-size:60px;
+  line-height:3rem;
+}
+.pbg2,.pbg3{
+  color:white;
+}
+.section2,.section3{
+  background-color:#282e34;
+  color:white;
+}
+.section-light{
+  color:black;
+}
